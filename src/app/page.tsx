@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import { ArrowBigDown, ChevronDown, ChevronsDown, Clock, Watch } from "lucide-react";
+import { ChevronsDown, Clock } from "lucide-react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
@@ -80,7 +80,7 @@ export default function WatchGallery() {
         <div className="max-sm:hidden w-px bg-white absolute left-1/3 -translate-x-1/2 top-1/2 -translate-y-1/2 h-2/3"></div>
         <div className="max-sm:hidden w-px bg-white absolute left-2/3 -translate-x-1/2 top-1/2 -translate-y-1/2 h-2/3"></div>
         <div className="w-1/3 max-sm:w-full rounded-xl sm:p-10 flex flex-col justify-center items-center">
-          <p className="text-white text-center text-4xl max-sm:text-3xl">Matériaux d'exception</p>
+          <p className="text-white text-center text-4xl max-sm:text-3xl">Matériaux d&apos;exception</p>
           <p className="text-white text-center max-sm:text-xs">Or, titane, saphir, cuir haut de gamme.</p>
         </div>
         <div className="w-1/3 max-sm:w-full rounded-xl sm:p-10 flex flex-col justify-center items-center">
@@ -96,7 +96,7 @@ export default function WatchGallery() {
         <div className="relative max-md:w-full w-2/5 flex justify-center flex-col gap-4 md:p-20 max-md:p-10">
           <p className="text-white text-6xl font-bold tracking-widest">Chronos Élite 1957</p>
           <p className="text-white text-base font-extralight raleway">Une fusion parfaite entre élégance intemporelle et ingénierie de précision. Conçue pour les passionnés de raffinement et d’excellence, chaque détail incarne l’héritage du temps.</p>
-          <Button className="w-fit text-xl tracking-wide">Découvrir l'édition limitée</Button>
+          <Button className="w-fit text-xl tracking-wide">Découvrir l&apos;édition limitée</Button>
         </div>
         <div className="h-screen relative max-md:w-1/2 max-md:mx-auto max-md:h-auto max-md:aspect-square w-1/5 flex flex-col justify-center items-center">
           <div className="absolute w-[700px] h-[700px] bg-[radial-gradient(circle,rgba(255,165,64,0.5)_0%,rgba(255,165,64,0)_70%)] rounded-full opacity-100 z-0"></div>
@@ -203,7 +203,7 @@ export default function WatchGallery() {
         </motion.div>
       </div>
       <footer className="w-full bg-gray-800 text-white raleway text-center py-5">
-        <p>Ce site web et tous les élements qu'il contient sont fictifs, si vous souhaitez un site internet de ce type vous pouvez me contacter en cliquant <Link href={'https://killian-colla.com/fr/contact'} target="_blank"><Button className="text-blue-600" variant={'link'}>ici</Button></Link></p>
+        <p>Ce site web et tous les élements qu&apos;il contient sont fictifs, si vous souhaitez un site internet de ce type vous pouvez me contacter en cliquant <Link href={'https://killian-colla.com/fr/contact'} target="_blank"><Button className="text-blue-600" variant={'link'}>ici</Button></Link></p>
       </footer>
     </div>
   );

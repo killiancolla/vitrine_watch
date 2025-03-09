@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Bebas_Neue, Poppins, Raleway } from "next/font/google";
+import { Bebas_Neue, Raleway } from "next/font/google";
 import "./globals.css";
 
 const bebas = Bebas_Neue({ weight: ["400"], subsets: ["latin"], variable: "--font-bebas" });
